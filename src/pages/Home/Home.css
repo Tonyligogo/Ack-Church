@@ -1,0 +1,296 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+.background{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.background .bgImage{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.background .content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    text-align: center;
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.textPrimary{
+    text-wrap: nowrap;
+}
+.text .whiteLine{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.background .content h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    font-family: "Lora", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background .content .bannerText{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.background .content button{
+    background-color: #ffd615;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+/* Bible bg */
+.midSection{
+    position: relative;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 114, 114, 0.3);
+}
+.bgBible{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.bibleContent{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+/* about us */
+.aboutSection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutSection > div{
+    flex: 1;
+}
+.aboutImage{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.aboutList{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: grey;
+    gap: 8px;
+}
+.aboutList li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.aboutList li .checkCircle{
+    color:#ffd615;
+}
+.aboutContent h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.aboutContent p{
+    color: grey;
+    line-height: 1.8;
+}
+/* services section */
+.servicesSection{
+    padding-block: 50px 70px;
+    background-color: #f8f9fa;
+}
+.servicesTop{
+    margin-inline: auto;
+    width: fit-content;
+    text-align: center;
+    margin-block-end: 70px;
+}
+.servicesTop .text .greyLine{
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+}
+.icon{
+    font-size: 50px;
+    color: #ffd615;
+}
+.servicesSection .servicesBottom{
+    margin-inline: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    place-content: center;
+}
+.servicesBottom > div{
+    text-align: center;
+    outline: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 8px;
+}
+.servicesBottom > div span{
+    color: grey;
+}
+/* sermons section */
+.sermonsSection{
+    margin-block: 50px;
+}
+.sermonImagesWrapper{
+    display: flex;
+    padding-inline: 6rem;
+    justify-content: space-between;
+    gap: 10px;
+}
+.sermonBgImage{
+    height: 450px;
+    width: 340px;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.sermonBgImage.image1{
+    background-image: url('../../assets/sunset.jpg');
+    background-position: center top;
+}
+.sermonBgImage.image2{
+    background-image: url('../../assets/motivate.jpg');
+}
+.sermonBgImage.image3{
+    background-image: url('../../assets/inspire.jpg');
+}
+.sermonContent{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.sermonContent button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+.sermonContent button:hover{
+    background-color: #ffd615;
+    border-color: #ffd615;
+
+}
+.sermonContent small{
+    font-size: 16px;
+    font-style: italic;
+}
+.sermonImgBottom{
+    margin-top: 20px;
+    text-align: center;
+}
+.sermonImgBottom > span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+.sermonImgBottom > small{
+    color: grey;
+}
+.sermonsBtn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-inline: auto;
+    font-size: 18px;
+    background-color: #ffd615;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+}
+/* Events */
+.events{
+    background-color:#f8f9fa;
+    padding-block: 50px;
+}
+.eventsWrapper{
+    margin-inline: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    justify-content: center;
+    gap: 30px;
+}
+.eventsWrapper > div{
+    /* outline: 1px solid grey; */
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.eventPic{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.eventContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.eventContent span{
+    color: grey;
+    font-style: italic;
+}
+/* contact */
+.contact{
+    background-color: aliceblue;
+    margin-inline: 6rem;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
