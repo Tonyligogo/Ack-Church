@@ -21,7 +21,7 @@ function App() {
       element: <Layout/>,
       children:[
         {
-          path:"/",
+          path:"/Ack-Church/",
           element:<Home/>
         }
       ]
