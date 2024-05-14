@@ -17,16 +17,16 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Ack-Church/",
       element: <Layout/>,
       children:[
         {
-          path:"/",
+          path:"/Ack-Church/",
           element:<Home/>
         }
       ]
     },
-  ]);
+  ],{ basename: "/Ack-Church" });
 
   return (
     <div>
