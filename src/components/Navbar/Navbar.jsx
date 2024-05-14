@@ -20,7 +20,7 @@ function Navbar() {
         <div className={active ? "navContainer active" : "navContainer"}>
             <nav>
                 <Link to="/" className="link">
-                    <h3>ACK Church</h3>
+                    <h3>St.Peter&apos;s ACK Church</h3>
                 </Link>
                 <div className="links">
                     <ul className="navLinks">

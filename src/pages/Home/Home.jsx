@@ -20,7 +20,7 @@ function Home() {
             <div className='content'>
                 <p className='text'>
                     <span className='whiteLine'></span>
-                    <span className='textPrimary'>ACK CHURCH</span>
+                    <span className='textPrimary'>St.Peter&apos;s ACK Church</span>
                     <span className='whiteLine'></span>
                 </p>
                 <h1>FOLLOWING <b style={{color:'#ffd615'}}>JESUS</b>, WHEREVER WE ARE</h1>
@@ -41,7 +41,7 @@ function Home() {
                 <img src={church} alt="about image" className='aboutImage'/>
             </div>
             <div className='aboutContent'>
-                <h3>Welcome to <b style={{color:'#ffd615'}}>ACK</b> Church</h3>
+                <h3>Welcome to <b style={{color:'#ffd615'}}>St.Peter&apos;s ACK</b> Church</h3>
                 <p>Far far away, creative behind the word mountains, far from the countries Vokalia and Consonantia, there live the success blind texts. Separated they live in Bookmarksgrove.</p>
                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                 <ul className='aboutList'>
@@ -84,7 +84,7 @@ function Home() {
                 </div>
                 <div>
                     <FaPeopleCarry  className='icon'/>
-                    <p>Community Evangilsm</p>
+                    <p>Community Evangelism</p>
                     <span>A small river named Duden flows by their place and supplies it with the necessary regelialia</span>
                 </div>
             </div>
@@ -159,7 +159,7 @@ function Home() {
                     <div className='eventContent'>
                         <h2>Know Jesus Christ Better Through Bible Study</h2>
                         <span> <FaRegCalendarAlt /> Fridat, 8:00 Pm - Saturday 8:00 Am </span>
-                        <span> <MdLocationCity/> ACK Church </span>
+                        <span> <MdLocationCity/> St.Peter&apos;s ACK Church </span>
                         <span> <FaLocationCrosshairs/> Embakasi, Nairobi </span>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ function Home() {
         <p>Reach out to us now for assistance on your journey to emotional and spiritual well-being.</p>
         <p style={{display:'flex', justifyContent:'center', gap:'50px'}}>
             <span>Call or message us at: <small style={{color:'blue', fontSize:'16px'}}>0700001111</small> </span>
-            <span>Facebook us at: <small style={{color:'blue', fontSize:'16px', cursor:'pointer'}}>ackchurch.facebook.com</small> </span>
+            <span>Facebook us at: <small style={{color:'blue', fontSize:'16px', cursor:'pointer'}}>stpetersackchurch.facebook.com</small> </span>
         </p>
         </div>
     </main>
