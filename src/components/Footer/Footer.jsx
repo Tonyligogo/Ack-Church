@@ -49,7 +49,7 @@ function Footer() {
             </li>
             <li>
               {" "}
-              <MdOutlineEmail /> <span>info@ackchurchnairobi.org</span>
+              <MdOutlineEmail /> <span>info@ackstpetersembakasi.org</span>
             </li>
           </ul>
         </div>
@@ -57,12 +57,20 @@ function Footer() {
           <h2>Service Hours</h2>
           <ul className="list serviceHours">
             <li>
-              <span>Saturday Prayer Meeting</span>
+              <span>Wednesday Prayer Meeting</span>
               <small>10:00 am to 11:30 am</small>
             </li>
             <li>
-              <span>Sunday Service</span>
-              <small>8:30 am to 11:30 am</small>
+              <span>Youth Service</span>
+              <small>8:00 am to 09:30 am</small>
+            </li>
+            <li>
+              <span>English Service</span>
+              <small>9:30 am to 11:30 am</small>
+            </li>
+            <li>
+              <span>Kiswahili Service</span>
+              <small>11:30 am to 1:30 pm</small>
             </li>
           </ul>
         </div>
