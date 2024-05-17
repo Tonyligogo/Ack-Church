@@ -17,6 +17,7 @@ function Home() {
         <div className='background'>
             <div className='overlay'></div>
             <img src={BgImage} alt="background" className='bgImage' />
+            <img src={BgImage} alt="background" className='bgImage' />
             <div className='content'>
                 <p className='text'>
                     <span className='whiteLine'></span>
